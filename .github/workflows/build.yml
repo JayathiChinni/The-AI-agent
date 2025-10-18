@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  GITHUB_CR_REPO: ghcr.io/${{ github.repository.lower() }}
+  GITHUB_CR_REPO: ghcr.io/${{ github.repository }}
 
 jobs:
   build:
